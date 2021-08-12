@@ -1,0 +1,190 @@
+name: bakery
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.3.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  scoped_model:
+  flutter_rating: ^0.0.2
+  sqflite: ^1.1.5
+  path_provider:
+  localstorage:
+  marquee: ^2.1.0
+  image_picker: ^0.6.2+1
+  carousel_pro: ^0.0.13
+  flutter_range_slider: "^1.0.1"
+  url_launcher:
+  # nexmo_verify: "^1.0.1"
+  flutter_progress_hud:
+  rflutter_alert:
+  
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.0.6
+  permission_handler: ^8.0.0+2
+  razorpay_flutter: ^1.2.6
+  # firebase_database: ^7.0.0
+  # firebase_auth: ^1.2.0
+  firebase_core: ^1.3.0
+  firebase_auth: ^1.4.1
+  http: 
+  provider: ^5.0.0
+  flutter_svg: ^0.22.0
+  google_sign_in: ^5.0.4
+  flutter_secure_storage: ^4.2.0
+  otp_text_field: ^1.1.1
+  # firebase_storage: ^9.0.0
+  firebase_database: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/PlBaQBS.gif
+    - assets/powered_by.png
+    - assets/logo.png
+    - images/back.jpg
+    - images/groceries.jpg
+    - images/grtwo.jpg
+    - images/grthre.jpg
+    - images/veg.jpg
+    - images/frozen.jpg
+    - images/bev.jpg
+    - images/brand_f.jpg
+    - images/be.jpg
+    - images/eggs.jpg
+    - images/home.jpg
+    - images/nonveg.jpg
+    - images/apple.jpg
+    - images/grapes.jpg
+    - images/guava.jpg
+    - images/kiwi.jpg
+    - images/lemons.jpg
+    - images/pineapple.jpg
+    - images/tomato.jpg
+    - images/gro.jpg
+    - assets/fk-plus_043837.png
+    - assets/logo.png
+    - assets/powered_by.png
+    - assets/flutter1.png
+    - assets/flutter2.png
+    - assets/applinces.png
+    - assets/beauty.png
+    - assets/electronic.png
+    - assets/fashion.png
+    - assets/grocery.png
+    - assets/mobiles.png
+    - assets/sports_and_more.png
+    - assets/toys_and_babby.png
+    - assets/home.png
+    - assets/hair_dryer.png
+    - assets/laptop.png
+    - assets/power_bank.png
+    - assets/male_modle.png
+    - assets/shirt_modle.png
+    - assets/female.png
+    - assets/watch.png
+    - assets/banner_one.png
+    - assets/phone_two.png
+    - assets/phone_three.png
+    - assets/phone.png
+    - assets/nokia.png
+    - assets/banner_two.png
+    - assets/banner_three.png
+    - assets/mobile_top.png
+    - assets/telivision.png
+    - assets/running.png
+    - assets/cacique_positve.png
+    - assets/shui-jing-fang-positive.png
+    - assets/banner_four.png
+    - assets/banner_mid.png
+    - assets/wallet_dark_logo.png
+    - assets/wallet_logo.png
+    - assets/ic_send.png
+    - assets/ic_money.png
+    - assets/ic_transact.png
+    - assets/ic_reward.png
+    - assets/PlBaQBS.gif
+    - assets/house.png
+    - assets/user.png
+    - assets/shopping-bag.png
+    - assets/offer.png
+    - assets/user.jpeg
+    - assets/profile.png
+    - assets/playstore-icon.png
+    - assets/warning.png
+    - images/rupee.png
+    - assets/wallet.png
+    - assets/credit-card.png
+    - assets/online-payment.png
+    - assets/paytm.png
+    - assets/paypal.png
+    - assets/rayzorpay.png
+    - assets/googlepay.png
+    - assets/stripepay.png
+    - assets/phone-pe.png
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
